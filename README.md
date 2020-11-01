@@ -110,7 +110,7 @@ Example Input:
     parentId: 15,
   },
 ];
-```javascript
+```
 Root Directory has parentId as 0 and each directory has isDir flag enabled. 
 
 Output should be like below.
