@@ -109,6 +109,13 @@
 
 const fragment = document.createDocumentFragment();
 
+/**
+ * Traverse the given array of objects representing the directory structure into corresponding DOM list.
+ * The recursive function handles 3 cases such as root directory, directory and file.
+ * Root Directory is determined based on the values of parentId and isDir properties. parentId is given as 0 for root.
+ * @input [Array]
+ * @output [DocumentFragment]
+ **/
 function dirRecursiveTraversal([ele, ...rem]) {
   if (!ele) {
     return fragment;
