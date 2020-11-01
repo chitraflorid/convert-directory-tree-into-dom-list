@@ -1,7 +1,7 @@
 # Convert the given array of Objects which represent the directory hierarchy into corresponding nested DOM list.
 
 Example Input:
-
+```javascript
   const dir = [{
     id: 1,
     name: "routes",
@@ -110,7 +110,7 @@ Example Input:
     parentId: 15,
   },
 ];
-
+```javascript
 Root Directory has parentId as 0 and each directory has isDir flag enabled. 
 
 Output should be like below.
