@@ -115,3 +115,4 @@ Root Directory has parentId as 0 and each directory has isDir flag enabled.
 
 Output should be like below.
 
+![Screenshot 2020-11-02 at 2 28 13 AM](https://user-images.githubusercontent.com/12800370/97815355-55415200-1cb3-11eb-8554-bfaddb298ff0.png)
