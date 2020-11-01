@@ -109,16 +109,16 @@
 
 const fragment = document.createDocumentFragment();
 
-const fragment = document.createDocumentFragment();
-
 function dirRecursiveTraversal([ele, ...rem]) {
   if (!ele) {
     return fragment;
   }
     
-  // root directory
+  // directory
   if (ele.isDir) {
       const parentUL = createUL(ele);
+      
+      // root directory
       if (ele.parentId === 0) {
           const rootEl = createUL(ele, 0);
           
