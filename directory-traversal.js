@@ -169,12 +169,12 @@ function createListItem(ele) {
 }
 
 function onDirLinkClick(e) {
-	const targetId = e.target.id;
-  const ul = document.getElementById("parent_"+ targetId);
+    const targetId = e.target.id;
+    const ul = document.getElementById("parent_"+ targetId);
   
-  if (document.getElementById(targetId).contains(ul)) {
-		ul.classList.toggle("hidden");
-  }
+    if (document.getElementById(targetId).contains(ul)) {
+	ul.classList.toggle("hidden");
+    }
 }
 
 document.addEventListener("DOMContentLoaded", () => {
